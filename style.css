@@ -31,16 +31,17 @@ img {
 /* styling the contain section */
 
 .contain{
-    background-color: rgb(200, 204, 188);
+    background-color: rgb(92, 201, 116);
     width: 300px;
     height: 400px;
     margin-bottom: 5px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-left: -15px;
 }
 
 h4 {
-   color: hsl(30, 38%, 92%);
+   color: hsl(32, 16%, 62%);
    font-family: 'Montserrat', sans-serif;
    letter-spacing: 2px;
    font-size: 13px;
@@ -91,6 +92,12 @@ button:hover {
 
 }
 
+.attribution {
+    font-size: 11px; 
+    text-align: center;}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    }
 
 
 
