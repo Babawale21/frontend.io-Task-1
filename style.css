@@ -1,0 +1,106 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Fraunces', serif; */
+/* basic adjustment */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling the whole container */
+
+.container {
+    width: 45%;
+    margin: 0 auto;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+/* styling the contain section */
+
+.contain{
+    background-color: rgb(200, 204, 188);
+    width: 300px;
+    height: 400px;
+    margin-bottom: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h4 {
+   color: hsl(30, 38%, 92%);
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 2px;
+   font-size: 13px;
+   padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+p{  
+    color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.num {
+    width: 70%;
+    color: hsl(158, 36%, 37%);
+    padding: 10px;
+    font-family: 'Fraunces', serif;
+    font-size: x-large;
+    display: flex;
+    align-content: center;
+}
+
+span {
+    text-decoration: line-through;
+    font-size: small;
+    margin: auto;
+    color: hsl(30, 38%, 92%);
+}
+
+/* styling the add to cart button */
+
+button {
+    width: 230px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-color: none;
+    border-radius: 10px;
+    background-color: hsl(119, 96%, 9%);
+}
+button:hover {
+    background-color: hsl(119, 89%, 42%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
